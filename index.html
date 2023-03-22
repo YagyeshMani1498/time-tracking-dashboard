@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <title>Frontend Mentor | Time tracking dashboard</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="report-container">
+      <div class="user-detail">
+        <div class="user-name-and-img">
+          <img
+            src="images/image-jeremy.png"
+            alt="user-image"
+            class="user-img"
+          />
+          <div class="user">
+            <p class="user-report">Report for</p>
+            <p class="user-name">
+              Jeremy <br class="line-break" />
+              Robson
+            </p>
+          </div>
+        </div>
+        <nav class="report-navigation">
+          <button class="button" value="daily">Daily</button>
+          <button class="button active" value="weekly">Weekly</button>
+          <button class="button" value="monthly">Monthly</button>
+        </nav>
+      </div>
+
+      <div class="report Work">
+        <div class="padding-box"></div>
+        <div class="report-summary">
+          <div class="title-and-menu">
+            <p>Work</p>
+            <button class="svg-button">
+              <svg width="21" height="5" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  class="svg-img"
+                  d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"
+                  fill="#BBC0FF"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </button>
+          </div>
+          <div class="time">
+            <p class="current-time">32hrs</p>
+            <p class="previous-time">
+              <span class="previous-time-title">Last Week</span> -
+              <span class="previous-time-value">36</span>hrs
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="report Play">
+        <div class="padding-box"></div>
+        <div class="report-summary">
+          <div class="title-and-menu">
+            <p>Play</p>
+            <button class="svg-button">
+              <svg width="21" height="5" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  class="svg-img"
+                  d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"
+                  fill="#BBC0FF"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </button>
+          </div>
+          <div class="time">
+            <p class="current-time">10hrs</p>
+            <p class="previous-time">
+              <span class="previous-time-title">Last Week</span> -
+              <span class="previous-time-value">8</span>hrs
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="report Study">
+        <div class="padding-box"></div>
+        <div class="report-summary">
+          <div class="title-and-menu">
+            <p>Study</p>
+            <button class="svg-button">
+              <svg width="21" height="5" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  class="svg-img"
+                  d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"
+                  fill="#BBC0FF"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </button>
+          </div>
+          <div class="time">
+            <p class="current-time">4hrs</p>
+            <p class="previous-time">
+              <span class="previous-time-title">Last Week</span> -
+              <span class="previous-time-value">7</span>hrs
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="report Exercise">
+        <div class="padding-box"></div>
+        <div class="report-summary">
+          <div class="title-and-menu">
+            <p>Exercise</p>
+            <button class="svg-button">
+              <svg width="21" height="5" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  class="svg-img"
+                  d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"
+                  fill="#BBC0FF"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </button>
+          </div>
+          <div class="time">
+            <p class="current-time">4hrs</p>
+            <p class="previous-time">
+              <span class="previous-time-title">Last Week</span> -
+              <span class="previous-time-value">5</span>hrs
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="report Social">
+        <div class="padding-box"></div>
+        <div class="report-summary">
+          <div class="title-and-menu">
+            <p>Social</p>
+            <button class="svg-button">
+              <svg width="21" height="5" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  class="svg-img"
+                  d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"
+                  fill="#BBC0FF"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </button>
+          </div>
+          <div class="time">
+            <p class="current-time">5hrs</p>
+            <p class="previous-time">
+              <span class="previous-time-title">Last Week</span> -
+              <span class="previous-time-value">10</span>hrs
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="report Self-Care">
+        <div class="padding-box"></div>
+        <div class="report-summary">
+          <div class="title-and-menu">
+            <p>Self Care</p>
+            <button class="svg-button">
+              <svg width="21" height="5" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  class="svg-img"
+                  d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"
+                  fill="#BBC0FF"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </button>
+          </div>
+          <div class="time">
+            <p class="current-time">2hrs</p>
+            <p class="previous-time">
+              <span class="previous-time-title">Last Week</span> -
+              <span class="previous-time-value">2</span>hrs
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div> -->
+    <script src="main.js"></script>
+  </body>
+</html>
